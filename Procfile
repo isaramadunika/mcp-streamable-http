@@ -1,1 +1,1 @@
-web: uv run fastapi_example/server.py
+web: python fastapi_example/server.py

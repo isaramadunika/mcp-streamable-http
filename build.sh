@@ -1,3 +1,3 @@
 #!/bin/bash
 # Build script for deployment
-uv sync
+pip install -r requirements.txt
