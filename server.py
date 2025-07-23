@@ -16,7 +16,7 @@ TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
 # Initialize Tavily client
 tavily_client = TavilyClient(TAVILY_API_KEY)
 
-PORT = os.environ.get("PORT", 10000)
+PORT = os.environ.get("PORT", 8000)
 
 # Create an MCP server
 mcp = FastMCP("web-search", host="0.0.0.0", port=PORT)
