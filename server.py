@@ -11,7 +11,7 @@ if "TAVILY_API_KEY" not in os.environ:
     raise Exception("TAVILY_API_KEY environment variable not set")
   
 # Tavily API key
-TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
+TAVILY_API_KEY = ("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")
 
 # Initialize Tavily client
 tavily_client = TavilyClient(TAVILY_API_KEY)
